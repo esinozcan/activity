@@ -5,7 +5,6 @@
     padding: 8px 16px;
     border-bottom: 1px solid rgb(235,235,235);
     box-shadow: 10px;
-
 }
 
 .notification-content {
@@ -20,16 +19,17 @@
     transition: ease .3s;
 }
 
-.notification-actions:hover{
-    opacity: 0.8;
-    color: #13674a;
-    transition: ease .3s;
-}
-
 .notification-actions a {
     color: #999999;
     margin-left: 16px;
     font-size: 14px;
+    text-decoration: none;
+}
+
+.notification:hover .notification-actions{
+    opacity: 0.8;
+    color: #13674a;
+    transition: ease .3s;
 }
 
 .notification h4 {
@@ -53,7 +53,6 @@
 .notification-content a {
     color: #237FC2;
     text-decoration: none;
-
 }
 
 

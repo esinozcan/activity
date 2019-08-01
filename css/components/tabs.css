@@ -16,6 +16,9 @@
     text-decoration: none;
 }
 
-.tab:hover {
-    opacity: 1;
+.tab:hover{
+    opacity: 0.8;
+    color: #13674a;
+    transition: ease .3s;
 }
+
